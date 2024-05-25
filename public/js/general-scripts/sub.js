@@ -7,7 +7,7 @@
       
       var say = [];
       say[0] = "Greetings!";
-      say[1] = "I like flamingo.";
+      say[1] = "I like flamingo the youtuber.";
       say[2] = "Womp, Womp.";
       say[3] = "Hey there bucko";
       say[4] = "Don't Use Interstellar!";
