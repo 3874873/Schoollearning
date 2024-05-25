@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astro | Find the diameter using radius</title>
+    <link rel="icon" href="/images/astro.png" />
+	<link rel="shortcut icon" href="/images/astro.png" />
     <link href="/css/main.css" rel="stylesheet" type="text/css">
     <script type='text/javascript' src='//banddisordergraceless.com/ce/75/76/ce7576defa8dc3d82887bd1c1f84ac65.js'></script>
     <script src="https://kit.fontawesome.com/52676eb1e5.js" crossorigin="anonymous"></script>
@@ -23,10 +25,39 @@
 <br>
 <br>
 <div align="center">
-    <h1>Settings</h1>
-<div class="searchsection">
-    <h1>1</h1>
+<div class="containerz">
+    <h2>About:Blank Cloaking</h2>
+    <button class="btn" onclick="ab()">ㅤㅤHistory Hiderㅤㅤ</button>
+    <br>
+    <button class="btn" onclick="buffedAB()">Advanced history hider</button>
+  </div>
+  <div class="containerz">
+    <h2>Tab Cloaking</h2>
+    <input id="title" placeholder="Title" />
+    <br>
+    <br>
+    <input id="favicon" placeholder="Favicon" />
+<br>
+<br>
+
+    <div class="select-box">
+      <div class="selected-option" id="presets">Presets</div>
+      <ul class="options" id="presetOptions">
+        <li id="google">Google</li>
+        <li id="googleClassroom">Google Classroom</li>
+        <li id="bing">Bing</li>
+        <li id="nearpod">Nearpod</li>
+      </ul>
+    </div>
+    <br>
+    <button id="customApply">Apply</button>
+    <button id="reset">Reset Cloak</button>
+  </div>
 </div>
 </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/settings/ulticloak.js" defer></script>
+<script src="/js/settings/cloak.js" defer></script>
+<script src="/js/settings/cloak2.js" defer></script>
 </html>

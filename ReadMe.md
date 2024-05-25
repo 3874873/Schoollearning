@@ -13,11 +13,10 @@
 # How to set up Astro.
 > You **cannot** deploy to static hosts, like Netlify, Cloudflare Pages, or GitHub Pages.
 
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/galacticnetwork/astro)
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/galacticnetwork/astro-lightweight)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/galacticnetwork/astro&branch=main&name=astro)
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/galacticnetwork/astro)
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/galacticnetwork/astro"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://vercel.com/new/clone?repository-url=https://github.com/GalacticNetwork/astro"><img alt="Deploy to Vercel" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg"></a>
 
 # Server Deployments
 > to set up astro, you'll need to run

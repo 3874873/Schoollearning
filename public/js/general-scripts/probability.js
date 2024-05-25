@@ -13,12 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 const img = document.createElement('img');
                 img.src = game.img;
-                img.alt = game.name; // Using game.name for alt text
+                img.alt = game.name;
                 img.classList.add('image');
 
                 const overlay = document.createElement('div');
                 overlay.classList.add('overlay');
-                overlay.textContent = game.title; // Using game.name for overlay text
+                overlay.textContent = game.title;
 
                 imageContainer.appendChild(img);
                 imageContainer.appendChild(overlay);
