@@ -57,10 +57,10 @@ transform:scale(1.1);
 
 input {
   width: 200px;
-  height:30px;
+  height:35px;
   box-shadow: 0 0 20px black;
   outline:none;
-  border-radius:10px;
+  border-radius:30px;
   background-color: transparent;
   border:none;
   text-align: center;
@@ -81,7 +81,7 @@ input::placeholder {
   margin-bottom: 20px;
   box-shadow: 0 0 10px violet;
 	width: 200px;
-  height:190px;
+  height:120px;
   justify-content: center;
   transition:0.7s;
 }
@@ -183,4 +183,8 @@ button:active {
 .alignment {
 	align-items:center;
 	justify-content:center;
+}
+
+#subtitle {
+	font-size:10px;
 }
