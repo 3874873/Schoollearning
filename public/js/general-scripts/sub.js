@@ -7,17 +7,17 @@
       
       var say = [];
       say[0] = "Greetings!";
-      say[1] = "Hello!";
-      say[2] = "Does this even work?";
+      say[1] = "I like flamingo.";
+      say[2] = "Womp, Womp.";
       say[3] = "Hey there bucko";
-      say[4] = "A proxy? With the games and apps? *moans loudly*";
+      say[4] = "Don't Use Interstellar!";
       say[5] = "my name is astro!";
       say[6] = "Astrological!";
       say[7] = "Astronomy!";
       say[8] = "this is david. say hi!";
       say[9] = "nuh uh";
       say[10] = "Turip! Ip! Ip!";
-      say[11] = "Did you know I have a discord server?";
+      say[11] = "MaMa! MAMAAAAAAAAAAAAA";
       say[12] = "How many sides does a circle have?";
       say[13] = "Womp, Womp.";
       say[14] = "You can read btw";
@@ -31,7 +31,7 @@
       say[22] = "gg blockers";
       say[23] = "gg = get good";
       say[24] = "Ahhhhhhhhh";
-      say[25] = "Awesome!";
+      say[25] = "Powered By Ultraviolet 3.1.2!";
       say[26] = "betch stfu";
       say[27] = "noot noot!";
       say[28] = "green fn";
