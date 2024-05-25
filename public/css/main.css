@@ -180,3 +180,7 @@ button:hover {
 button:active {
     transform: scale(0.95);
 }
+.alignment {
+	align-items:center;
+	justify-content:center;
+}
