@@ -22,6 +22,6 @@ form.addEventListener("submit", async (event) => {
   }
 
   sessionStorage.setItem("url", __uv$config.prefix + __uv$config.encodeUrl(url))
-        location.href = "/go.html"
+        location.href = "/go/index.html"
   location.href = __uv$config.prefix + __uv$config.encodeUrl(url);
 });
