@@ -90,7 +90,7 @@ input::placeholder {
 }
 
 .searchsection:hover {
-  transform:translateY(-1.1rem);
+  transform:translateY(1.1rem);
 }
 
 .logo {
