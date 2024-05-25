@@ -178,12 +178,10 @@ form input:focus {
         window.location.href = '/'
       })
       window.onload = function () {
-        let encodedUrl = sessionStorage.getItem('ur')
+        let encodedUrl = sessionStorage.getItem('url')
         encodedUrl = encodedUrl
         console.log(encodedUrl)
-        document.querySelector('#iframeid').src = encodedUrl
-        let iframe = document.querySelector('#iframeId')
-        iframe.src = encodedUrl
+        document.querySelector('#iframeId').src = encodedUrl
       }
     </script>
 <script>
