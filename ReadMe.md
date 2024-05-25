@@ -12,6 +12,7 @@
 
 # How to set up Astro.
 > You **cannot** deploy to static hosts, like Netlify, Cloudflare Pages, or GitHub Pages.
+> for adaptable, press node.js template and for the start command put node index.js
 
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/galacticnetwork/astro)
 [![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/galacticnetwork/astro&branch=main&name=astro)

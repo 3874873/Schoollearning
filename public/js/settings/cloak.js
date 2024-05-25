@@ -30,6 +30,7 @@ $(document).ready(function() {
     const googleClassroom = document.getElementById("googleClassroom");
     const bing = document.getElementById("bing");
     const nearpod = document.getElementById("nearpod");
+    const powerschool = document.getElementById("powerschool");
 
     function applySettings(title, favicon) {
         localStorage.setItem("Title", title || "Astro");
@@ -57,6 +58,10 @@ $(document).ready(function() {
 
     nearpod.addEventListener("click", () => {
         applySettings("Nearpod", "https://nearpod.com/favicon.ico");
+    });
+
+    powerschool.addEventListener("click", () => {
+        applySettings("PowerSchool Sign In", "https://powerschool.com/favicon.ico");
     });
 
     reset.addEventListener("click", () => {
