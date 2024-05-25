@@ -20,6 +20,9 @@ form.addEventListener("submit", async (event) => {
     console.log(err);
     throw err;
   }
+
+  const url = search(address.value, searchEngine.value);
+
   sessionStorage.setItem("url", __uv$config.prefix + __uv$config.encodeUrl(url))
   location.href = "/go/"
 });
