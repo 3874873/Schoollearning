@@ -9,7 +9,16 @@
     <title id="dynamic-title">Home</title>
     <script src="/baremux/bare.cjs" defer></script>
     <script src="/epoxy/index.js" defer></script>
-    
+      <script>
+    window.onload = function() {
+                  let url = sessionStorage.getItem("url");
+                  url = "/astro/" + url;
+                  console.log(url);
+                  document.querySelector("#iframeId").src = url;
+                  let iframe = document.querySelector("#iframeId");
+                  iframe.src = url;
+              };
+  </script>
       <script src="/js/mathhelp/regsw.js" defer></script>
     <script src="https://kit.fontawesome.com/1237c86ba0.js" crossorigin="anonymous"></script>
     <style>
@@ -38,13 +47,13 @@
       .form__input {
                 top: 20%;
         justify-content:center;
-    background: #351E4F;
+    background: #d69cbc;
     font-family: 'Be Vietnam Pro', sans-serif;
-    height: 48px;
+    height: 38px;
     border: 1px solid #68419b;
     outline: none;
-    width: 500px;
-    border-radius: 5px;
+    width: 300px;
+    border-radius: 35px;
     color: #FFF;
         text-align: center;
 }
