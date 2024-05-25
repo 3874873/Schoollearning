@@ -188,3 +188,12 @@ button:active {
 #subtitle {
 	font-size:10px;
 }
+
+.spin {
+	cursor:pointer;
+	transition:0.5s;
+}
+
+.spin:hover {
+	transfrom:rotate(-360deg);
+}
