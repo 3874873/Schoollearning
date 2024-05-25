@@ -19,7 +19,7 @@
       say[10] = "Turip! Ip! Ip!";
       say[11] = "Did you know I have a discord server?";
       say[12] = "How many sides does a circle have?";
-      say[13] = "My disappointment is immeasurable and my day is ruined.";
+      say[13] = "Womp, Womp.";
       say[14] = "You can read btw";
       say[15] = "Imagine using chromebooks!";
       say[16] = "HEHEHEHA.";
