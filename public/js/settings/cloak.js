@@ -49,7 +49,7 @@ $(document).ready(function() {
     });
 
     googleClassroom.addEventListener("click", () => {
-        applySettings("Classes", "https://ssl.gstatic.com/classroom/favicon.png");
+        applySettings("Home", "https://ssl.gstatic.com/classroom/favicon.png");
     });
 
     bing.addEventListener("click", () => {

@@ -53,5 +53,15 @@
         "img": "/algebra/img/10-mins.png",
         "title": "10 Minutes Till Dawn",
         "url": "/algebra/fractions.html?geometry=10-minutes-till-dawn"
+    },
+    {
+        "img": "/algebra/img/adofi.jpg",
+        "title": "A Dance Of Fire And Ice",
+        "url": "/algebra/fractions.html?geometry=adofai"
+    },
+    {
+        "img": "/algebra/img/call-of-ops.jpeg",
+        "title": "Call Of Ops 2",
+        "url": "/algebra/fractions.html?geometry=black-ops-2"
     }
 ]
