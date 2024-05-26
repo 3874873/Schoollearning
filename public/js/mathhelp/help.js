@@ -1,15 +1,13 @@
 async function goto(site) {
-    try {
-        await registerSW();
-      } catch (err) {
-        console.log(err);
-        throw err;
-      }
-      sessionStorage.setItem("encodedUrl", __uv$config.encodeUrl(url));
-      location.href = "/go/";
+  try {
+      await registerSW();
+    } catch (err) {
+      console.log(err);
+      throw err;
+    }
+  
+    const url = search(address.value, "https://www.google.com/search?q=%s");
+  
+    sessionStorage.setItem("url", __uv$config.prefix + __uv$config.encodeUrl(url))
+    location.href = "/go/"
 }
-gameElement.className = "image-container";
-  gameElement.onclick = function () {
-    fetch('/json/games.json')
-    launch(game.link);
-  };
