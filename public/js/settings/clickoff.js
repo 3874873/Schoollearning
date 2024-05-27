@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const originalTitle = document.title;
     const originalFavicon = document.getElementById('favicon').href;
     const cloakedTitle = 'Google Forms';
-    const cloakedFavicon = '/images/forms.ico';
+    const cloakedFavicon = 'https://ssl.gstatic.com/docs/spreadsheets/forms/forms_icon_2023q4.ico';
 
     // Function to set a cookie
     function setCookie(name, value, days) {
