@@ -28,3 +28,5 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error fetching the games data:', error));
 });
+
+// this is old code, idc if you skid it, just give me credit.

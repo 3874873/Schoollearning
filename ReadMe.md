@@ -22,7 +22,7 @@
 
 # Server Deployments
 > to set up astro, you'll need to run
-`npm i && npm start`
+`npm i && node index.js`
 and your done!
 
 # Credits
