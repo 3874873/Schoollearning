@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('/json/apps.json')
         .then(response => response.json())
         .then(data => {
-            const gameContainer = document.querySelector('.game-container');
+            const appContainer = document.querySelector('.app-container');
 
             data.forEach(game => {
                 const imageContainer = document.createElement('div');
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 imageContainer.appendChild(img);
                 imageContainer.appendChild(overlay);
 
-                gameContainer.appendChild(imageContainer);
+                appContainer.appendChild(imageContainer);
             });
         })
         .catch(error => console.error('Error fetching the games data:', error));
