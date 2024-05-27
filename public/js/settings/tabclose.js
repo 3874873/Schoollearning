@@ -1,33 +1,25 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const toggleSwitch = document.getElementById('toggleSwitch');
+let isLeavePopupEnabled = JSON.parse(localStorage.getItem('leavePopupEnabled'));
 
-    // Check if the toggle state is saved in localStorage
-    const savedState = localStorage.getItem('switchState');
-    if (savedState === 'on') {
-        toggleSwitch.checked = true;
-        enableOnbeforeunload();
-    } else {
-        toggleSwitch.checked = false;
-        disableOnbeforeunload();
+if (isLeavePopupEnabled === null) {
+    isLeavePopupEnabled = false;
+}
+
+window.addEventListener('beforeunload', function (e) {
+    if (isLeavePopupEnabled) {
+        e.preventDefault();
+        e.returnValue = '';
     }
-
-    toggleSwitch.addEventListener('change', (event) => {
-        if (toggleSwitch.checked) {
-            enableOnbeforeunload();
-            localStorage.setItem('switchState', 'on');
-        } else {
-            disableOnbeforeunload();
-            localStorage.setItem('switchState', 'off');
-        }
-    });
 });
 
-function enableOnbeforeunload() {
-    window.onbeforeunload = function() {
-        return "Are you sure you want to leave?";
-    };
-}
+document.getElementById('toggleLeavePopup').addEventListener('change', function () {
+    isLeavePopupEnabled = !isLeavePopupEnabled;
+    localStorage.setItem('leavePopupEnabled', JSON.stringify(isLeavePopupEnabled));
 
-function disableOnbeforeunload() {
-    window.onbeforeunload = null;
-}
+    if (isLeavePopupEnabled) {
+        alert('Leave Site Popup Enabled');
+    } else {
+        alert('Leave Site Popup Disabled');
+    }
+});
+
+document.getElementById('toggleLeavePopup').checked = isLeavePopupEnabled;

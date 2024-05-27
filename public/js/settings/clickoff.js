@@ -1,61 +1,60 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const tabSwitcher = document.getElementById('tabSwitcher');
-    const originalTitle = document.title;
-    const originalFavicon = document.getElementById('favicon').href;
-    const cloakedTitle = 'Google Forms';
-    const cloakedFavicon = 'https://ssl.gstatic.com/docs/spreadsheets/forms/forms_icon_2023q4.ico';
+let isTitleAndFaviconEnabled = JSON.parse(localStorage.getItem('titleAndFaviconEnabled'));
 
-    // Function to set a cookie
-    function setCookie(name, value, days) {
-        const date = new Date();
-        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-        const expires = "expires=" + date.toUTCString();
-        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+if (isTitleAndFaviconEnabled === null) {
+    isTitleAndFaviconEnabled = false;
+}
+
+let originalTitle = document.title;
+let originalFavicon = getFavicon();
+
+document.addEventListener('visibilitychange', function() {
+    if (isTitleAndFaviconEnabled && document.hidden) {
+        document.title = 'Google Forms';
+        changeFavicon('https://ssl.gstatic.com/docs/spreadsheets/forms/forms_icon_2023q4.ico');
+    } else if (!isTitleAndFaviconEnabled && !document.hidden) {
+        resetTitleAndFavicon();
     }
+}, false);
 
-    // Function to get a cookie
-    function getCookie(name) {
-        const nameEQ = name + "=";
-        const ca = document.cookie.split(';');
-        for (let i = 0; i < ca.length; i++) {
-            let c = ca[i];
-            while (c.charAt(0) === ' ') c = c.substring(1, c.length);
-            if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
-        }
-        return null;
+document.addEventListener('focus', function() {
+    if (!isTitleAndFaviconEnabled) {
+        resetTitleAndFavicon();
     }
+}, false);
 
-    // Function to switch tab appearance
-    function switchTabAppearance(isCloaked) {
-        if (isCloaked) {
-            document.title = cloakedTitle;
-            document.getElementById('favicon').href = cloakedFavicon;
-        } else {
-            document.title = originalTitle;
-            document.getElementById('favicon').href = originalFavicon;
-        }
+document.getElementById('toggleTitleAndFavicon').addEventListener('change', function () {
+    isTitleAndFaviconEnabled = !isTitleAndFaviconEnabled;
+    localStorage.setItem('titleAndFaviconEnabled', JSON.stringify(isTitleAndFaviconEnabled));
+
+    if (isTitleAndFaviconEnabled) {
+        alert('Title and Favicon will change when tab is switched');
+    } else {
+        alert('Title and Favicon feature disabled');
+        resetTitleAndFavicon();
     }
-
-    // Event listener for visibility change
-    document.addEventListener('visibilitychange', function () {
-        if (document.hidden) {
-            switchTabAppearance(tabSwitcher.checked);
-        } else {
-            switchTabAppearance(false);
-        }
-    });
-
-    // Event listener for switch toggle
-    tabSwitcher.addEventListener('change', function () {
-        setCookie('tabSwitcherState', tabSwitcher.checked, 7);
-    });
-
-    // Initialize state from cookie
-    const savedState = getCookie('tabSwitcherState');
-    if (savedState !== null) {
-        tabSwitcher.checked = (savedState === 'true');
-    }
-
-    // Initialize appearance based on current state
-    switchTabAppearance(false);
 });
+
+document.getElementById('toggleTitleAndFavicon').checked = isTitleAndFaviconEnabled;
+
+function resetTitleAndFavicon() {
+    document.title = originalTitle;
+    changeFavicon(originalFavicon);
+}
+
+function getFavicon() {
+    const favicon = document.querySelector('link[rel="icon"]');
+    return favicon ? favicon.href : '';
+}
+
+function changeFavicon(url) {
+    const favicon = document.querySelector('link[rel="icon"]');
+
+    if (favicon) {
+        favicon.href = url;
+    } else {
+        const newFavicon = document.createElement('link');
+        newFavicon.rel = 'icon';
+        newFavicon.href = url;
+        document.head.appendChild(newFavicon);
+    }
+}

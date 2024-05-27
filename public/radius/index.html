@@ -78,7 +78,7 @@
   <h2>Anti Tab Closing</h2>
   <p>A script that stops your teacher from closing your tab.</p>
   <label class="switch">
-    <input type="checkbox" id="toggleSwitch">
+    <input type="checkbox" id="toggleLeavePopup">
     <span class="slider"></span>
 </label>
 </div>
@@ -87,17 +87,15 @@
   <h2>Clickoff cloaking</h2>
   <p>A script that cloaks your tab when clicked off.</p>
   <label class="switch">
-    <input type="checkbox" id="tabSwitcher">
+    <input type="checkbox" id="toggleTitleAndFavicon">
     <span class="slider round"></span>
 </label>
 </div>
 <div class="containerz">
   <h2>Automatic About:Blank</h2>
   <p>To piss off your teachers and not get caught!</p>
-  <label class="switch">
-    <input type="checkbox" id="scriptToggle">
-    <span class="slider round"></span>
-</label>
+  <button onclick="disableAboutBlank()">Disable</button>
+    <button onclick="enableAboutBlank()">Enable</button>
 </div>
 <div class="containerz" style="width:290px;">
     <div class="alignment">
