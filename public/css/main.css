@@ -315,3 +315,9 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}

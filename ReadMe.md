@@ -31,6 +31,7 @@ and your done!
 - <a href="//github.com/slqnt">Slqnt - Setup of UV</a>
 - <a href="//github.com/bachwebsite">Bach - css</a>
 - <a href="//github.com/woofplayz">WoofPlayz - CSS and JS and ironing out bugs.</a>
+- <a href="//github.com/plexileNetwork">Clipped - Clickoff cloak and tabclose code.</a>
 
 <h1 align="center">Contributors</h1>
 <h2 align="center">Thanks to these people for contributing!</h2>
