@@ -6,8 +6,6 @@ async function goto(site) {
       throw err;
     }
   
-    const url = search(address.value, "https://www.google.com/search?q=%s");
-  
-    sessionStorage.setItem("url", __uv$config.prefix + __uv$config.encodeUrl(url))
+    sessionStorage.setItem("url", __uv$config.prefix + __uv$config.encodeUrl(site))
     location.href = "/go/"
 }
