@@ -11,7 +11,18 @@
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({ pageLanguage: "en", layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL }, "google_translate_element");
       }
-      alert ('if you get no bare clients please hard refresh or search something else up. If you came from apps or games go back home and go to apps and go to the app you were searching for. thanks. ')
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+            // Check if the alert has been shown before
+            if (!localStorage.getItem('alertShown')) {
+                // Show the alert
+                alert("if you get no bare clients please hard refresh or search something else up. If you came from apps or games go back home and go to apps and go to the app you were searching for. thanks. ");
+                
+                // Set a flag in localStorage
+                localStorage.setItem('alertShown', 'true');
+            }
+        });
     </script>
 
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
