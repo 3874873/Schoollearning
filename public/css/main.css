@@ -134,7 +134,6 @@ input::placeholder {
 
 .image-container:hover {
   transform:translateY(-0.5rem);
-  border: 10px purple;
 }
 
 .overlay {
@@ -159,7 +158,6 @@ input::placeholder {
 
 .image-container:hover .overlay {
   opacity: 1;
-	  border: 10px purple;
 }
 
 

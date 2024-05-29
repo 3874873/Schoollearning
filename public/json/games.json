@@ -78,5 +78,15 @@
         "img": "/algebra/img/tf2.jpg",
         "title": "Team Fortress 2",
         "clickFunction": "goto('https://play.geforcenow.com/games?game-id=40512534-ad27-4a12-afa7-6fc412288072&lang=en_US&asset-id=01_547b2064-13ad-4ba5-b928-d2770accddf1');"
+    },
+    {
+        "img": "/algebra/img/adventure-capitalist.jpg",
+        "title": "Adventure Capitalist",
+        "clickFunction": "goto('https://than1089.github.io/adventure-capitalist/');"
+    },
+    {
+        "img": "/algebra/img/ewww.avif",
+        "title": "You VS 100 Skibidi Toilets (🤮)",
+        "clickFunction": "goto('https://unblocked-games911.github.io/you-vs-100-skibidi-toilets/');"
     }
 ]
