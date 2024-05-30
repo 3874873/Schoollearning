@@ -314,16 +314,15 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(26px);
 }
-/* Ensure minimal interference with existing input styles */
 .search-container {
   position: relative;
   display: inline-block;
 }
 
 #search-bar {
-  width: 250px; /* Adjust as needed */
+  width: 250px;
   padding: 10px;
-  padding-right: 40px; /* Make space for the icon */
+  padding-right: 40px;
   border: 1px solid #ccc;
   border-radius: 4px;
   height:20px;
@@ -340,10 +339,30 @@ input:checked + .slider:before {
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  pointer-events: none; /* Make sure the icon is not interactive */
-  font-size: 16px; /* Adjust as needed */
+  pointer-events: none;
+  font-size: 16px;
   color: #aaa;
   margin-bottom: 15px;
 }
 
-/* Add any additional custom styles here */
+.ad-container {
+  border-radius:5px;
+  width:230px;
+  padding: 20px;
+  background-color: #2222226e;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  transition:1s;
+}
+
+.ad-container:hover {
+  transform:translateY(-1.1rem);
+}
+
+.ad-container.fade-out {
+  opacity: 0;
+}
+.billiger {
+  color: red;
+}

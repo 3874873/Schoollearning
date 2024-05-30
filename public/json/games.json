@@ -88,5 +88,20 @@
         "img": "/algebra/img/ewww.avif",
         "title": "You VS 100 Skibidi Toilets (🤮)",
         "clickFunction": "goto('https://unblocked-games911.github.io/you-vs-100-skibidi-toilets/');"
+    },
+    {
+        "img": "/algebra/img/blumgi-ball.webp",
+        "title": "Blumgi Ball",
+        "url": "/algebra/fractions.html?geometry=blumgimagicball"
+    },
+    {
+        "img": "/algebra/img/subwaysurfers.png",
+        "title": "Subway Surfers",
+        "url": "/algebra/fractions.html?geometry=subway-surfers"
+    },
+    {
+        "img": "/algebra/img/",
+        "title": "",
+        "clickFunction": "goto('');"
     }
 ]
