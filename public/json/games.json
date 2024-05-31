@@ -100,8 +100,13 @@
         "url": "/algebra/fractions.html?geometry=subway-surfers"
     },
     {
-        "img": "/algebra/img/",
-        "title": "",
-        "clickFunction": "goto('');"
+        "img": "/algebra/img/fn-mobile.png",
+        "title": "Fortnite Mobile",
+        "clickFunction": "goto('https://renderisgay.onrender.com/apps/epic-games/7308/fortnite.html');"
+    },
+    {
+        "img": "/algebra/img/mp.jpg",
+        "title": "Melon Playground",
+        "clickFunction": "goto('https://renderisgay.onrender.com/apps/playducky/7199/melon-sandbox.html');"
     }
 ]
