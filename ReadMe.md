@@ -19,6 +19,7 @@
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/galacticnetwork/astro)
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/galacticnetwork/astro"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 <a target="_blank" href="https://adaptable.io/app/deploy/new?gitUrl=https://github.com/galacticnetwork/astro"><img alt="Deploy to Adaptable" width="185px" style="border-radius:5px;" src="https://raw.githubusercontent.com/GalacticNetwork/astro/main/adapta.png"></a>
+<a target="_blank" href="https://docs.galacticnetwork.org/#replit"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
 
 # Server Deployments
 > to set up astro, you'll need to run
