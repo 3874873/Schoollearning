@@ -67,7 +67,7 @@
     {
         "img": "/algebra/img/roblox.png",
         "title": "Roblox",
-        "clickFunction": "goto('https://websitesball.com/');"
+        "clickFunction": "goto('https://nowgg.nl/apps/roblox-corporation/5349/roblox.html');"
     },
     {
         "img": "/algebra/img/fn.jpeg",
@@ -107,6 +107,6 @@
     {
         "img": "/algebra/img/mp.jpg",
         "title": "Melon Playground",
-        "clickFunction": "goto('https://renderisgay.onrender.com/apps/playducky/7199/melon-sandbox.html');"
+        "clickFunction": "goto('https://nowgg.nl/apps/playducky/7199/melon-sandbox.html');"
     }
 ]
