@@ -67,7 +67,7 @@
     {
         "img": "/algebra/img/roblox.png",
         "title": "Roblox",
-        "clickFunction": "goto('https://nowgg.nl/apps/roblox-corporation/5349/roblox.html');"
+        "clickFunction": "alert ('Reload it until it works!'); goto('https://nowgg.nl/apps/roblox-corporation/5349/roblox.html');"
     },
     {
         "img": "/algebra/img/fn.jpeg",
@@ -108,5 +108,25 @@
         "img": "/algebra/img/mp.jpg",
         "title": "Melon Playground",
         "clickFunction": "goto('https://nowgg.nl/apps/playducky/7199/melon-sandbox.html');"
+    },
+    {
+        "img": "/algebra/img/133.webp",
+        "title": "Minecraft 1.3.3",
+        "url": "/algebra/fractions.html?geometry=eaglercraft/133"
+    },
+    {
+        "img": "/algebra/img/152.webp",
+        "title": "Minecraft 1.5.2",
+        "url": "/algebra/fractions.html?geometry=eaglercraft/152"
+    },
+    {
+        "img": "/algebra/img/188.webp",
+        "title": "Minecraft 1.8.8",
+        "url": "/algebra/fractions.html?geometry=eaglercraft/188"
+    },
+    {
+        "img": "/algebra/img/189.jpg",
+        "title": "Minecraft 1.8.9",
+        "url": "/algebra/fractions.html?geometry=eaglercraft/189"
     }
 ]
