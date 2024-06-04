@@ -67,7 +67,7 @@
     {
         "img": "/algebra/img/roblox.png",
         "title": "Roblox",
-        "clickFunction": "alert ('Reload it until it works!'); goto('https://nowgg.nl/apps/roblox-corporation/5349/roblox.html');"
+        "clickFunction": "alert ('Reload it until it works!'); goto('https://cybria-gg-ebon.vercel.app/');"
     },
     {
         "img": "/algebra/img/fn.jpeg",
