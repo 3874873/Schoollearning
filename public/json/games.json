@@ -67,7 +67,7 @@
     {
         "img": "/algebra/img/roblox.png",
         "title": "Roblox",
-        "clickFunction": "alert ('Reload it until it works!'); goto('https://cybria-gg-ebon.vercel.app/');"
+        "clickFunction": "alert ('Reload it until it works! If it doesn't work hard refresh (ctrl + shift + r)'); goto('https://cybria-gg-ebon.vercel.app/');"
     },
     {
         "img": "/algebra/img/fn.jpeg",
@@ -128,5 +128,15 @@
         "img": "/algebra/img/189.jpg",
         "title": "Minecraft 1.8.9",
         "url": "/algebra/fractions.html?geometry=eaglercraft/189"
+    },
+    {
+        "img": "/algebra/img/fifa.jpg",
+        "title": "Fifa Mobile",
+        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1353/ea-sports-fc-mobile-24-soccer.html');"
+    },
+    {
+        "img": "/algebra/img/rlss.jpg",
+        "title": "Rocket League: SideSwipe",
+        "clickFunction": "goto('https://mathsspot.com/apps/psyonix-studios/4656/rocket-league.html');"
     }
 ]
