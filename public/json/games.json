@@ -67,7 +67,7 @@
     {
         "img": "/algebra/img/roblox.png",
         "title": "Roblox",
-        "clickFunction": "alert ('Reload it until it works! If it doesn't work hard refresh (ctrl + shift + r)'); goto('https://cybria-gg-ebon.vercel.app/');"
+        "clickFunction": "goto('https://cybria-gg-ebon.vercel.app/'); alert('Reload the proxy till it works!');"
     },
     {
         "img": "/algebra/img/fn.jpeg",
