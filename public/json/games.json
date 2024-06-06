@@ -107,7 +107,7 @@
     {
         "img": "/algebra/img/mp.jpg",
         "title": "Melon Playground",
-        "clickFunction": "goto('https://cybria-gg-ebon.vercel.app/apps/playducky/7199/melon-sandbox.html');"
+        "clickFunction": "goto('https://mathsspot.com/apps/playducky/7199/melon-sandbox.html');"
     },
     {
         "img": "/algebra/img/133.webp",
