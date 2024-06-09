@@ -1,7 +1,7 @@
   <script>
     window.onload = function() {
                   let url = sessionStorage.getItem("url");
-                  url = "/astro/" + url;
+                  url = "/service/" + url;
                   console.log(url);
                   document.querySelector("#iframeId").src = url;
                   let iframe = document.querySelector("#iframeId");
