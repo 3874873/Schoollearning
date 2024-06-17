@@ -1,5 +1,5 @@
 self.__uv$config = {
-    prefix: "/astro/",
+    prefix: "/service/",
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: "/backendsystem/uv.handler.js",
