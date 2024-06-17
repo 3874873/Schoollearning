@@ -138,5 +138,25 @@
         "img": "/algebra/img/rlss.jpg",
         "title": "Rocket League: SideSwipe",
         "clickFunction": "goto('https://mathsspot.com/apps/psyonix-studios/4656/rocket-league.html');"
+    },
+    {
+        "img": "/algebra/img/retro-bowl.jpg",
+        "title": "Retro Bowl",
+        "url": "/algebra/fractions.html?geometry=retro-bowl"
+    },
+    {
+        "img": "/algebra/img/retro-bowl-college.jpg",
+        "title": "Retro Bowl College",
+        "clickFunction": "goto('https://mathsspot.com/apps/new-star-games-ltd/5635/retro-bowl-college.html');"
+    },
+    {
+        "img": "/algebra/img/madden-nfl-24-mobile-football.jpg",
+        "title": "Madden NFL 2024",
+        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1731/madden-nfl-24-mobile-football.html');"
+    },
+    {
+        "img": "/algebra/img/nba-live-mobile-basketball.jpg",
+        "title": "NBA Live",
+        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/2156/nba-live-mobile-basketball.html');"
     }
 ]
