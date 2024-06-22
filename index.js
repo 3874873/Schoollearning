@@ -44,7 +44,7 @@ server.on("upgrade", (req, socket2, head) => {
 
 let port = parseInt(process.env.PORT || "");
 
-if (isNaN(port)) port = 6969;
+if (isNaN(port)) port = 8080;
 
 server.listen(port, () => {
     console.log("Server is listening on port", port);
