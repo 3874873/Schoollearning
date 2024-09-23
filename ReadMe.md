@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/GalacticNetwork/astro/blob/main/public/images/astro.png?raw=true" height="100">
 </p>
-<p align="center">Astro</p>
+<h1 align="center">Astro</h1>
 <h1 align="center"><strong>Just the BETTER site.</strong></h1>
 
 # Features:
