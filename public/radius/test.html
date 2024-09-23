@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lo</title>
+    <style>
+body {
+    background-color: var(--bgcolor);
+}
+
+.navbar {
+    background-color: var(--navbar);
+}
+
+.navbar ul li {
+    color: var(--txt);
+}
+
+#theme-select {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#theme-select:hover {
+    background-color: var(--accent);
+    color: var(--txt);
+}
+
+#theme-select:focus {
+    box-shadow: 0px 0px 10px var(--secondary-accent);
+}
+    </style>
+</head>
+<body>
+    <select id="theme-select">
+        <option value="main">Main Theme</option>
+        <option value="mocha">Cappuchin Mocha</option>
+        <option value="light">Light Mode</option>
+        <option value="black">Dark Mode</option>
+        <option value="frappe">Cappuchin Frappe</option>
+        <option value="latte">Cappuchin Latte</option>
+        <option value="rogue-red">Rogue</option>
+        <option value="AYO">The Hub</option>
+    </select>
+</body>
+<script>
+function setTheme(theme) {
+    document.body.setAttribute('theme', theme);
+    localStorage.setItem('theme', theme);
+}
+
+function initTheme() {
+    const savedTheme = localStorage.getItem('theme') || 'main';
+    document.body.setAttribute('theme', savedTheme);
+    const themeSelect = document.getElementById('theme-select');
+    if (themeSelect) {
+        themeSelect.value = savedTheme;
+        themeSelect.addEventListener('change', () => {
+            setTheme(themeSelect.value);
+        });
+    }
+}
+
+initTheme();
+</script>
+</html>

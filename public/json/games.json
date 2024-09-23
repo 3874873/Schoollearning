@@ -67,7 +67,7 @@
     {
         "img": "/algebra/img/roblox.png",
         "title": "Roblox",
-        "clickFunction": "goto('https://mathsspot.com/apps/roblox-corporation/5349/roblox.html'); alert('Reload the proxy till it works!');"
+        "clickFunction": "goto('https://cybria-gg-ebon.vercel.app/?app_pkg=com.roblox.client&partner=gamenora'); alert('Reload the proxy till it works!');"
     },
     {
         "img": "/algebra/img/fn.jpeg",
@@ -102,12 +102,12 @@
     {
         "img": "/algebra/img/fn-mobile.png",
         "title": "Fortnite Mobile",
-        "clickFunction": "goto('https://renderisgay.onrender.com/apps/epic-games/7308/fortnite.html');"
+        "clickFunction": "goto('https://renderisgay.onrender.com/apps/epic-games/7308/fortnite.html?app_pkg=com.roblox.client&partner=gamenora');"
     },
     {
         "img": "/algebra/img/mp.jpg",
         "title": "Melon Playground",
-        "clickFunction": "goto('https://mathsspot.com/apps/playducky/7199/melon-sandbox.html');"
+        "clickFunction": "goto('https://mathsspot.com/apps/playducky/7199/melon-sandbox.html?app_pkg=com.roblox.client&partner=gamenora');"
     },
     {
         "img": "/algebra/img/133.webp",
@@ -132,31 +132,371 @@
     {
         "img": "/algebra/img/fifa.jpg",
         "title": "Fifa Mobile",
-        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1353/ea-sports-fc-mobile-24-soccer.html');"
+        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1353/ea-sports-fc-mobile-24-soccer.html?app_pkg=com.roblox.client&partner=gamenora');"
     },
     {
         "img": "/algebra/img/rlss.jpg",
         "title": "Rocket League: SideSwipe",
-        "clickFunction": "goto('https://mathsspot.com/apps/psyonix-studios/4656/rocket-league.html');"
+        "clickFunction": "goto('https://mathsspot.com/apps/psyonix-studios/4656/rocket-league.html?app_pkg=com.roblox.client&partner=gamenora');"
     },
     {
         "img": "/algebra/img/retro-bowl.jpg",
         "title": "Retro Bowl",
-        "url": "/algebra/fractions.html?geometry=retro-bowl"
+        "clickFunction": "goto('https://shawn43.github.io/retrobowl-unlimited/');"
     },
     {
         "img": "/algebra/img/retro-bowl-college.jpg",
         "title": "Retro Bowl College",
-        "clickFunction": "goto('https://mathsspot.com/apps/new-star-games-ltd/5635/retro-bowl-college.html');"
+        "clickFunction": "goto('https://mathsspot.com/apps/new-star-games-ltd/5635/retro-bowl-college.html?app_pkg=com.roblox.client&partner=gamenora');"
     },
     {
         "img": "/algebra/img/madden-nfl-24-mobile-football.jpg",
         "title": "Madden NFL 2024",
-        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1731/madden-nfl-24-mobile-football.html');"
+        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1731/madden-nfl-24-mobile-football.html?app_pkg=com.roblox.client&partner=gamenora');"
     },
     {
         "img": "/algebra/img/nba-live-mobile-basketball.jpg",
         "title": "NBA Live",
-        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/2156/nba-live-mobile-basketball.html');"
+        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/2156/nba-live-mobile-basketball.html?app_pkg=com.roblox.client&partner=gamenora');"
+    },
+    {
+        "img": "/algebra/img/sm64.jpeg",
+        "title": "Super Mario 64",
+        "url": "/algebra/fractions.html?geometry=sm64"
+    },
+    {
+        "img": "/algebra/img/basketbros.jpg",
+        "title": "Basket Bros",
+        "url": "/algebra/fractions.html?geometry=basketbros"
+    },
+    {
+        "img": "/algebra/img/drift-boss.jpeg",
+        "title": "Drift Boss",
+        "url": "/algebra/fractions.html?geometry=drift-boss"
+    },
+    {
+        "img": "/algebra/img/drift-hunters.jpeg",
+        "title": "Drift Hunters",
+        "clickFunction": "goto('https://script.google.com/macros/s/AKfycbw8iHPqdVFEzquUYbNxFVAu1Tw4Nri5SWMRLdP_c7a84vCOHVG7YUWuhjSVptg1SVHr/exec');"
+    },
+    {
+        "img": "/algebra/img/polytrack.jpeg",
+        "title": "Polytrack",
+        "clickFunction": "goto('https://iliill1.github.io/polytrackfix/polytrack/');"
+    },
+    {
+        "img": "/algebra/img/totm.jpg",
+        "title": "Tomb Of The Mask",
+        "url": "/algebra/fractions.html?geometry=totm"
+    },
+    {
+        "img": "/algebra/img/dhpk.jpg",
+        "title": "DreadHead Parkour",
+        "clickFunction": "goto('https://thepizzaedition.github.io/assets/allgames/dreadhead-parkour/class12523/dreadhead-parkour/index.html');"
+    },
+    {
+        "img": "/algebra/img/level-devil.jpeg",
+        "title": "Level Devil",
+        "clickFunction": "goto('https://ezclasswork.com/science/LevelDevil/?gd_sdk_referrer_url=https://ezclasswork.com/play/level-devil');"
+    },
+    {
+        "img": "/algebra/img/crazy-cars.jpeg",
+        "title": "Crazy Cars",
+        "clickFunction": "goto('https://thepizzaedition.github.io/assets/allgames/CrazyCars/index.html');"
+    },
+    {
+        "img": "/algebra/img/tiq.png",
+        "title": "The Impossible Quiz",
+        "clickFunction": "goto('https://www.bubbleshooter.net/embed.php?id=95');"
+    },
+    {
+        "img": "/algebra/img/tiq2.jpg",
+        "title": "The Impossible Quiz 2",
+        "url": "/algebra/fractions.html?geometry=tiq/2"
+    },
+    {
+        "img": "/algebra/img/tiqb.webp",
+        "title": "The Impossible Quiz Book",
+        "url": "/algebra/fractions.html?geometry=tiq/book"
+    },
+    {
+        "img": "/algebra/img/otg.jpg",
+        "title": "Obey The Game",
+        "url": "/algebra/fractions.html?geometry=otg"
+    },
+    {
+        "img": "/algebra/img/basketnball.jpg",
+        "title": "Basket and Ball",
+        "clickFunction": "goto('https://basket-and-ball.glitch.me');"
+    },
+    {
+        "img": "/algebra/img/bad-piggies.jpg",
+        "title": "Bad Piggies",
+        "url": "/algebra/fractions.html?geometry=bad-piggies"
+    },
+    {
+        "img": "/algebra/img/thebackrooms.jpg",
+        "title": "The Backrooms",
+        "clickFunction": "goto('https://script.google.com/macros/s/AKfycbwP_Yq-kbxfVFhZG15dwseK_MA98gs2wnOgrA4VPJNPbxOTOaLTCiztn-B0xrutwV7F7w/exec');"
+    },
+    {
+        "img": "/algebra/img/baldi.jpg",
+        "title": "Baldis Basics",
+        "url": "/algebra/fractions.html?geometry=baldi"
+    },
+    {
+        "img": "/algebra/img/paperplane.jpg",
+        "title": "Paper Plane",
+        "url": "/algebra/fractions.html?geometry=paperplane"
+    },
+    {
+        "img": "/algebra/img/bts.png",
+        "title": "Bad Time Simulator",
+        "url": "/algebra/fractions.html?geometry=bts"
+    },
+    {
+        "img": "/algebra/img/poly40.jpg",
+        "title": "PolyTrack 4.0",
+        "clickFunction": "goto('https://thepizzaedition.github.io/polytrack4.1/');"
+    },
+    {
+        "img": "/algebra/img/sketchbook.png",
+        "title": "Sketchbook",
+        "url": "/algebra/fractions.html?geometry=sketchbook"
+    },
+    {
+        "img": "/algebra/img/going-balls.png",
+        "title": "Going Balls",
+        "clickFunction": "goto('https://thepizzaedition.github.io/assets/allgames/going-balls/index.html');"
+    },
+    {
+        "img": "/circumfrence/img/crazygames.jpg",
+        "title": "CrazyGames",
+        "clickFunction": "goto('https://crazygames.com');"
+    },
+    {
+        "img": "https://github.com/GalacticNetwork/jordansmathwork-v5/blob/main/assets/images/enew.png?raw=true",
+        "title": "Jordan's Math Work",
+        "clickFunction": "goto('https://jmwubg.xyz');"
+    },
+    {
+        "img": "https://github.com/GalacticNetwork/a1rplay/blob/main/A1R.png?raw=true",
+        "title": "A1RPlay Games",
+        "clickFunction": "goto('https://a1rplayis.us');"
+    },
+    {
+        "img": "/algebra/img/vex.jpeg",
+        "title": "Vex",
+        "url": "/algebra/fractions.html?geometry=vex"
+    },
+    {
+        "img": "/algebra/img/vex-2.jpg",
+        "title": "Vex 2",
+        "url": "/algebra/fractions.html?geometry=vex/2"
+    },
+    {
+        "img": "/algebra/img/vex03.jpg",
+        "title": "Vex 3",
+        "clickFunction": "goto('https://raw.githack.com/3kh0/3kh0-assets/main/vex3/index.html');"
+    },
+    {
+        "img": "/algebra/img/vex-4.jpeg",
+        "title": "Vex 4",
+        "url": "/algebra/fractions.html?geometry=vex/4"
+    },
+    {
+        "img": "/algebra/img/vex-5.jpeg",
+        "title": "Vex 5",
+        "url": "/algebra/fractions.html?geometry=vex/5"
+    },
+    {
+        "img": "/algebra/img/vex-6.png",
+        "title": "Vex 6",
+        "url": "/algebra/fractions.html?geometry=vex/6"
+    },
+    {
+        "img": "/algebra/img/vex-7.jpg",
+        "title": "Vex 7",
+        "clickFunction": "goto('https://raw.githack.com/3kh0/3kh0-assets/main/vex7/index.html');"
+    },
+    {
+        "img": "/algebra/img/vex-8.jpeg",
+        "title": "Vex 8",
+        "clickFunction": "goto('https://thepizzaedition.github.io/assets/allgames/vex8/index.html');"
+    },
+    {
+        "img": "/algebra/img/vex-x3m.jpg",
+        "title": "Vex X3M",
+        "clickFunction": "goto('https://html5.gamedistribution.com/0a3c55fe33ba415f9b761b5831e75b27/?gd_sdk_referrer_url=https://www.playit-online.com/game/vex-x3m/');"
+    },
+    {
+        "img": "/algebra/img/slowdrive.png",
+        "title": "SlowRoads",
+        "clickFunction": "goto('https://thepizzaedition.github.io/assets/allgames/slowroads/main/index.html');"
+    },
+    {
+        "img": "/algebra/img/burrito-bison.png",
+        "title": "Burrito Bison",
+        "url": "/algebra/fractions.html?geometry=burrito-bison"
+    },
+    {
+        "img": "/algebra/img/dbzd.jpg",
+        "title": "DBZ Devolution",
+        "url": "/algebra/fractions.html?geometry=dbz/d"
+    },
+    {
+        "img": "/algebra/img/dbz.jpg",
+        "title": "Dragon Ball Z",
+        "url": "/algebra/fractions.html?geometry=dbz"
+    },
+    {
+        "img": "/algebra/img/evio.webp",
+        "title": "Ev.IO",
+        "clickFunction": "goto('https://ev.io');"
+    },
+    {
+        "img": "/algebra/img/buildnowgg.avif",
+        "title": "BuildNow.GG",
+        "clickFunction": "goto('https://brawlhalla.online/buildnow-gg.embed');"
+    },
+    {
+        "img": "/algebra/img/wye.jpg",
+        "title": "Whack Your Ex",
+        "url": "/algebra/fractions.html?geometry=wye"    
+    },
+    {
+        "img": "/algebra/img/cc.png",
+        "title": "Cookie Clicker",
+        "url": "/algebra/fractions.html?geometry=cookie-clicker"
+    },
+    {
+        "img": "/algebra/img/dtm.jpg",
+        "title": "Dan The Man",
+        "clickFunction": "goto('https://script.google.com/macros/s/AKfycbwN-Pw1vVNGHPIpu3yMWsP6aQbx1ApXsJtjpZlQTBBY8EkFrRL8aufvbxzE0r066pop/exec');"
+    },
+    {
+        "img": "/algebra/img/fpa.jpg",
+        "title": "Fancy Pants Adventure",
+        "url": "/algebra/fractions.html?geometry=fpa"    
+    },
+    {
+        "img": "/algebra/img/fpa2.jpg",
+        "title": "Fancy Pants Adventure 2",
+        "url": "/algebra/fractions.html?geometry=fpa/2"    
+    },
+    {
+        "img": "/algebra/img/dnd.jpg",
+        "title": "Dad N Me",
+        "url": "/algebra/fractions.html?geometry=dnm"    
+    },
+    {
+        "img": "/algebra/img/dig.png",
+        "title": "Dig To China",
+        "url": "/algebra/fractions.html?geometry=dtc"    
+    },
+    {
+        "img": "/algebra/img/drivemad.png",
+        "title": "Drive Mad",
+        "url": "/algebra/fractions.html?geometry=drive-mad"    
+    },
+    {
+        "img": "/algebra/img/brawlhalla.jpg",
+        "title": "Brawlhalla",
+        "clickFunction": "goto('https://play.geforcenow.com/games?game-id=201dfa55-99a7-4e2c-838e-d3a35dd51179&lang=en_US&asset-id=01_79f5b975-ea7d-4c3d-b1cd-c12b4b6eb538');"
+    },
+    {
+        "img": "/algebra/img/baconmaydiei.jpg",
+        "title": "Bacon May Die",
+        "clickFunction": "goto('https://betterbull.com/uploads/5/5/6/7/5567194/custom_themes/320690105873469650/files/index.html');"
+    },
+    {
+        "img": "/algebra/img/duckhunt.jpg",
+        "title": "Duck Hunt",
+        "clickFunction": "goto('https://script.google.com/macros/s/AKfycbwjMnZDtl9H3JyWgR1QMHj7RPvgZeS2hn6KOuEC2H_mPhD9DO3C_Gbyg9RioAGbgBZA/exec');"
+    },
+    {
+        "img": "/algebra/img/ducklife.webp",
+        "title": "Duck Life",
+        "url": "/algebra/fractions.html?geometry=ducklife"    
+    },
+    {
+        "img": "/algebra/img/ducklife2.jpg",
+        "title": "Duck Life 2",
+        "url": "/algebra/fractions.html?geometry=ducklife/2"    
+    },
+    {
+        "img": "/algebra/img/ducklife3.jpg",
+        "title": "Duck Life 3",
+        "url": "/algebra/fractions.html?geometry=ducklife/3"    
+    },
+    {
+        "img": "/algebra/img/ducklife4.jpg",
+        "title": "Duck Life 4",
+        "url": "/algebra/fractions.html?geometry=ducklife/4"    
+    },
+    {
+        "img": "/algebra/img/ducklife5.jfif",
+        "title": "Duck Life 5",
+        "url": "/algebra/fractions.html?geometry=ducklife/5"    
+    },
+    {
+        "img": "/algebra/img/eggycar.avif",
+        "title": "Eggy Car",
+        "url": "/algebra/fractions.html?geometry=eggycar"    
+    },
+    {
+        "img": "/algebra/img/eggycar2.jfif",
+        "title": "Eggy Car 2",
+        "url": "/algebra/fractions.html?geometry=eggycar/2"    
+    },
+    {
+        "img": "/algebra/img/fbwg.jpeg",
+        "title": "Fire Girl and Water Boy",
+        "url": "/algebra/fractions.html?geometry=fbwg"    
+    },
+    {
+        "img": "/algebra/img/fbwg2.jpeg",
+        "title": "Fire Girl and Water Boy 2",
+        "url": "/algebra/fractions.html?geometry=fbwg/2"    
+    },
+    {
+        "img": "/algebra/img/fbwg3.jpeg",
+        "title": "Fire Girl and Water Boy 3",
+        "url": "/algebra/fractions.html?geometry=fbwg/3"    
+    },
+    {
+        "img": "/algebra/img/fbwg4.jpg",
+        "title": "Fire Boy and Water Girl 4",
+        "clickFunction": "goto('https://biologyedu1808.github.io/g26/fireboy-and-watergirl-4-crystal-temple');"
+    },
+    {
+        "img": "/algebra/img/fbwg5.jpeg",
+        "title": "Fire Boy and Water Girl 5",
+        "clickFunction": "goto('https://script.google.com/macros/s/AKfycbyJNOLNn5Ls2FUk3P-yVVB0pztdV0Ln-9Y63pMkV8_EehcgTlZ79f4xnOWRW2OgVlmn/exec');"
+    },
+    {
+        "img": "/algebra/img/fbwg6.jpeg",
+        "title": "Fire Boy and Water Girl 6",
+        "clickFunction": "goto('https://script.google.com/macros/s/AKfycbwYTN-M6FpARuAcCZUAcosjE2KlpUlBaK0ckikqh8A8RdlLTTNuSwk-NSFF6Vq4-D2opA/exec');"
+    },
+    {
+        "img": "/algebra/img/tiny.jpg",
+        "title": "Tiny Fishing",
+        "url": "/algebra/fractions.html?geometry=tiny-fishing"    
+    },
+    {
+        "img": "/algebra/img/ovo.jpg",
+        "title": "OvO",
+        "url": "/algebra/fractions.html?geometry=ovo"    
+    },
+    {
+        "img": "/algebra/img/hw.png",
+        "title": "Happy Wheels",
+        "clickFunction": "goto('https://script.google.com/macros/s/AKfycbyfMPVIGx6dJPrYKeE9e4Erj949-dH28pWVRjdV1vgnoylpBV8af03JNLoz2MwAIBLECg/exec');"
+    },
+    {
+        "img": "/algebra/img/sr3d.jpeg",
+        "title": "Snow Rider 3D",
+        "url": "/algebra/fractions.html?geometry=sr3d"    
     }
 ]

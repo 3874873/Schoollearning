@@ -30,3 +30,4 @@ function search(input, template) {
   // Treat the input as a search query
   return template.replace("%s", encodeURIComponent(input));
 }
+new Ultraviolet.BareClient();

@@ -56,8 +56,8 @@ $(document).ready(function() {
         "google": { title: "Google", favicon: "https://raw.githubusercontent.com/GalacticNetwork/jordansmathwork-v5/main/assets/images/cloaks/gsearch.ico" },
         "googleClassroom": { title: "Home", favicon: "https://ssl.gstatic.com/classroom/favicon.png" },
         "bing": { title: "Bing", favicon: "https://bing.com/favicon.ico" },
-        "nearpod": { title: "Nearpod", favicon: "https://nearpod.com/favicon.ico" },
-        "powerschool": { title: "PowerSchool Sign In", favicon: "https://powerschool.com/favicon.ico" }
+        "nearpod": { title: "Nearpod: Foster a love for learning in students.", favicon: "https://nearpod.com/favicon.ico" },
+        "powerschool": { title: "Home | Schoology", favicon: "https://powerschool.com/favicon.ico" }
     };
 
     // Add event listeners for preset buttons

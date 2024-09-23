@@ -1,0 +1,60 @@
+body[theme="main"] {
+    --text: white;
+    background-image: url(/images/bg.png);
+    --navbar:#29262654;
+    --accent:#111;
+    --btn-accent:#777;
+    --secondary-accent:white;
+}
+
+body[theme="dark"] {
+    --text: #ffffff;
+    --bgcolor: #000;
+    --navbar:#0f08087c;
+    --accent:black;
+    --btn-accent:#444;
+    --secondary-accent:darkgrey;
+}
+
+body[theme="light"] {
+    --text: #242424;
+    --bgcolor: rgb(122, 122, 122);
+    --navbar:#7c7c7c7c;
+    --accent:lightgray;
+    --btn-accent:#888;
+    --secondary-accent:#999;
+}
+
+body[theme="pa"] {
+    --text: #C93131;
+    --bgcolor: #0F0F0F;
+    --navbar:#111111ad;
+    --accent:#333;
+    --btn-accent:#312e2e;
+    --secondary-accent:#252525;
+}
+
+body[theme="a1r"] {
+    --text: #008cff;
+    background-image: url('https://raw.githubusercontent.com/beforeblazergithub/A1R/9925905e8cdeac35e06fa02635099711787b477d/assets/bk-3.svg');
+    --navbar:#7c7c7c7c;
+    --accent:rgb(74, 74, 114);
+    --btn-accent:#296069;
+    --secondary-accent:#17144d;
+}
+body[theme="macchiato"] {
+    --text: #CAD3F5;
+    --bgcolor: #1A1B26;
+    --navbar:#313244;
+    --accent:rgb(56, 66, 94);
+    --btn-accent:#11111b;
+    --secondary-accent:#181825;
+}
+body[theme="3kh0"] {
+    --text: #fff;
+    --bgcolor: #000;
+    --navbar:#010;
+    --accent:#c491f4;
+    --btn-accent:#FF5733;
+    --secondary-accent:#20B2AA;
+}
