@@ -32,3 +32,4 @@ async function registerSW() {
   let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
   BareMux.SetTransport("EpxMod.EpoxyClient", { wisp: wispUrl });
 }
+new Ultraviolet.BareClient();
