@@ -1,7 +1,7 @@
-<p align="center"><img src="https://github.com/GalacticNetwork/astro/blob/main/public/images/astrobanner.png?raw=true" height="100">
+<p align="center"><img src="https://github.com/GalacticNetwork/astro/blob/main/public/images/astro.png?raw=true" height="100">
 </p>
+<h1 align="center">Astro</h1>
 <h1 align="center"><strong>Just the BETTER site.</strong></h1>
-<h2 align="center">Astro is a upcoming AIO proxy website that runs on fast speeds on a VPS</h2>
 
 # Features:
 - Speedy proxy loading times
