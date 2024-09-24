@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astro - Transport</title>
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    let alertCount = parseInt(localStorage.getItem('alertCount')) || 0;
+    
+    if (alertCount < 10) {
+        alert("The bare clients error may occur, so try to hard refresh or search something else. This message will pop up 10 times before going away.");
+        alertCount++;
+        localStorage.setItem('alertCount', alertCount);
+    }
+});
+
+    </script>
     <!-- DO NOT REMOVE -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FG6GP8E17T"></script>
 <script>
