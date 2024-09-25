@@ -102,12 +102,12 @@
     {
         "img": "/algebra/img/fn-mobile.png",
         "title": "Fortnite Mobile",
-        "clickFunction": "goto('https://api.v6.wiki/apps/epic-games/7308/fortnite.html?app_pkg=com.roblox.client&partner=gamenora');"
+        "clickFunction": "goto('https://api.v6.wiki/apps/epic-games/7308/fortnite.html');"
     },
     {
         "img": "/algebra/img/mp.jpg",
         "title": "Melon Playground",
-        "clickFunction": "goto('https://mathsspot.com/apps/playducky/7199/melon-sandbox.html?app_pkg=com.roblox.client&partner=gamenora');"
+        "clickFunction": "goto('https://api.v6.wiki/apps/playducky/7199/melon-sandbox.html');"
     },
     {
         "img": "/algebra/img/133.webp",
@@ -132,12 +132,12 @@
     {
         "img": "/algebra/img/fifa.jpg",
         "title": "Fifa Mobile",
-        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1353/ea-sports-fc-mobile-24-soccer.html?app_pkg=com.roblox.client&partner=gamenora');"
+        "clickFunction": "goto('https://api.v6.wiki/apps/electronic-arts/1353/ea-sports-fc-mobile-24-soccer.html');"
     },
     {
         "img": "/algebra/img/rlss.jpg",
         "title": "Rocket League: SideSwipe",
-        "clickFunction": "goto('https://mathsspot.com/apps/psyonix-studios/4656/rocket-league.html?app_pkg=com.roblox.client&partner=gamenora');"
+        "clickFunction": "goto('https://api.v6.wiki/apps/psyonix-studios/4656/rocket-league.html');"
     },
     {
         "img": "/algebra/img/retro-bowl.jpg",
@@ -147,17 +147,17 @@
     {
         "img": "/algebra/img/retro-bowl-college.jpg",
         "title": "Retro Bowl College",
-        "clickFunction": "goto('https://mathsspot.com/apps/new-star-games-ltd/5635/retro-bowl-college.html?app_pkg=com.roblox.client&partner=gamenora');"
+        "clickFunction": "goto('https://api.v6.wiki/apps/new-star-games-ltd/5635/retro-bowl-college.html');"
     },
     {
         "img": "/algebra/img/madden-nfl-24-mobile-football.jpg",
         "title": "Madden NFL 2024",
-        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/1731/madden-nfl-24-mobile-football.html?app_pkg=com.roblox.client&partner=gamenora');"
+        "clickFunction": "goto('https://api.v6.wiki/apps/electronic-arts/1731/madden-nfl-24-mobile-football.html');"
     },
     {
         "img": "/algebra/img/nba-live-mobile-basketball.jpg",
         "title": "NBA Live",
-        "clickFunction": "goto('https://mathsspot.com/apps/electronic-arts/2156/nba-live-mobile-basketball.html?app_pkg=com.roblox.client&partner=gamenora');"
+        "clickFunction": "goto('https://api.v6.wiki/apps/electronic-arts/2156/nba-live-mobile-basketball.html');"
     },
     {
         "img": "/algebra/img/sm64.jpeg",
