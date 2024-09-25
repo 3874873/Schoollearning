@@ -67,7 +67,7 @@
     {
         "img": "/algebra/img/roblox.png",
         "title": "Roblox",
-        "clickFunction": "goto('https://cybria-gg-ebon.vercel.app/?app_pkg=com.roblox.client&partner=gamenora'); alert('Reload the proxy till it works!');"
+        "clickFunction": "goto('https://api.v6.wiki'); alert('Reload the proxy till it works!');"
     },
     {
         "img": "/algebra/img/fn.jpeg",
@@ -102,7 +102,7 @@
     {
         "img": "/algebra/img/fn-mobile.png",
         "title": "Fortnite Mobile",
-        "clickFunction": "goto('https://renderisgay.onrender.com/apps/epic-games/7308/fortnite.html?app_pkg=com.roblox.client&partner=gamenora');"
+        "clickFunction": "goto('https://api.v6.wiki/apps/epic-games/7308/fortnite.html?app_pkg=com.roblox.client&partner=gamenora');"
     },
     {
         "img": "/algebra/img/mp.jpg",
