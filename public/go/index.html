@@ -287,7 +287,6 @@ a {
           <button class="button" onclick="ab()"><i class="fa-light fa-eye"></i> About:Blank</button>
           <button class="button" onclick="buffedIframe()"><i class="fa-light fa-eye-slash"></i>Buffed About:Blank</button>
           <button class="button" onclick="inspect()"  onclick="alert('make sure to press the icon on bottom right to close!')"><i class="fa-light fa-code"></i> Eruda (inspect element)</button>
-          <button class="button" id="openIframeContent"><i class="fa-light fa-up-right-from-square"></i> Open in about:blank</button>
           <button id="fullscreenWindow" class="button"><i class="fa-light fa-expand"></i> Fullscreen Window (not iframe)</button>
         </div>
         </ul>
@@ -449,30 +448,5 @@ function openContent() {
                 elem.msRequestFullscreen();
             }
         });
-  </script>
-  <script>
-
-const iframe = document.getElementById('iframeId');
-        
-        iframe.onload = function() {
-            const iframeWindow = iframe.contentWindow;
-
-            const script = document.createElement('script');
-            script.textContent = `
-                window.open = function(url) {
-                    const newWindow = window.open('about:blank', '_blank');
-                    newWindow.document.write(\`
-                        <!DOCTYPE html>
-                        <html lang="en">
-                        <head><title>New Window</title></head>
-                        <body style="margin:0;">
-                            <iframe src="\${url}" style="width:100%; height:100%; border:none;"></iframe>
-                        </body>
-                        </html>
-                    \`);
-                };
-            `;
-            iframeWindow.document.body.appendChild(script);
-        };
   </script>
 </html>
