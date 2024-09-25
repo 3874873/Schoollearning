@@ -452,7 +452,7 @@ function openContent() {
   </script>
   <script>
 
-const iframe = document.getElementById('contentFrame');
+const iframe = document.getElementById('iframeId');
         
         iframe.onload = function() {
             const iframeWindow = iframe.contentWindow;
@@ -474,26 +474,5 @@ const iframe = document.getElementById('contentFrame');
             `;
             iframeWindow.document.body.appendChild(script);
         };
-  </script>
-  <script>
-document.getElementById('openIframeContent').addEventListener('click', function() {
-    var iframe = document.getElementById('iframeId');
-    var iframeContent = iframe.contentWindow ? iframe.contentWindow.document.documentElement.outerHTML : "";
-    
-    var newWindow = window.open('about:blank', '_blank');
-    newWindow.document.open();
-    newWindow.document.write(iframeContent);
-    newWindow.document.close();
-
-    // Ensure links work as expected inside the new window
-    newWindow.document.addEventListener('click', function(event) {
-        var target = event.target;
-        if (target.tagName === 'A' && target.href) {
-            event.preventDefault();
-            newWindow.location.href = target.href;  // Open link in the same new window
-        }
-    });
-});
-
   </script>
 </html>
