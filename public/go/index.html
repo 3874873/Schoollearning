@@ -478,11 +478,19 @@ const iframe = document.getElementById('contentFrame');
   <script>
 document.getElementById('openIframeContent').addEventListener('click', function() {
     var iframe = document.getElementById('iframeId');
-    iframe.contentWindow.document.addEventListener('click', function(event) {
+    var iframeContent = iframe.contentWindow ? iframe.contentWindow.document.documentElement.outerHTML : "";
+    
+    var newWindow = window.open('about:blank', '_blank');
+    newWindow.document.open();
+    newWindow.document.write(iframeContent);
+    newWindow.document.close();
+
+    // Ensure links work as expected inside the new window
+    newWindow.document.addEventListener('click', function(event) {
         var target = event.target;
         if (target.tagName === 'A' && target.href) {
             event.preventDefault();
-            window.open(target.href, '_blank');
+            newWindow.location.href = target.href;  // Open link in the same new window
         }
     });
 });
