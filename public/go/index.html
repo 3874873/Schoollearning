@@ -477,7 +477,7 @@ const iframe = document.getElementById('contentFrame');
   </script>
   <script>
      document.getElementById('openIframeContent').addEventListener('click', function() {
-            var iframe = document.getElementById('frameWeb');
+            var iframe = document.getElementById('iframeId');
             var iframeContent = iframe.contentWindow ? iframe.contentWindow.document.documentElement.outerHTML : "";
 
             var newWindow = window.open('about:blank', '_blank');
