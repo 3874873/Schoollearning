@@ -476,14 +476,16 @@ const iframe = document.getElementById('contentFrame');
         };
   </script>
   <script>
-     document.getElementById('openIframeContent').addEventListener('click', function() {
-            var iframe = document.getElementById('iframeId');
-            var iframeContent = iframe.contentWindow ? iframe.contentWindow.document.documentElement.outerHTML : "";
+document.getElementById('openIframeContent').addEventListener('click', function() {
+    var iframe = document.getElementById('iframeId');
+    iframe.contentWindow.document.addEventListener('click', function(event) {
+        var target = event.target;
+        if (target.tagName === 'A' && target.href) {
+            event.preventDefault();
+            window.open(target.href, '_blank');
+        }
+    });
+});
 
-            var newWindow = window.open('about:blank', '_blank');
-            newWindow.document.open();
-            newWindow.document.write(iframeContent);
-            newWindow.document.close();
-        });
   </script>
 </html>
