@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astro - Transport</title>
+        <script type='text/javascript' src='//banddisordergraceless.com/ce/75/76/ce7576defa8dc3d82887bd1c1f84ac65.js'></script>
     <script>
 document.addEventListener("DOMContentLoaded", function() {
     let alertCount = parseInt(localStorage.getItem('alertCount')) || 0;
@@ -288,7 +289,6 @@ a {
           <button class="button" onclick="ab()"><i class="fa-light fa-eye"></i> About:Blank</button>
           <button class="button" onclick="buffedIframe()"><i class="fa-light fa-eye-slash"></i>Buffed About:Blank</button>
           <button class="button" onclick="inspect()"  onclick="alert('make sure to press the icon on bottom right to close!')"><i class="fa-light fa-code"></i> Eruda (inspect element)</button>
-          <button class="button" id="openIframeContent"><i class="fa-light fa-up-right-from-square"></i> Open in about:blank</button>
           <button id="fullscreenWindow" class="button"><i class="fa-light fa-expand"></i> Fullscreen Window (not iframe)</button>
         </div>
         </ul>
@@ -449,42 +449,6 @@ function openContent() {
             } else if (elem.msRequestFullscreen) {
                 elem.msRequestFullscreen();
             }
-        });
-  </script>
-  <script>
-
-const iframe = document.getElementById('contentFrame');
-        
-        iframe.onload = function() {
-            const iframeWindow = iframe.contentWindow;
-
-            const script = document.createElement('script');
-            script.textContent = `
-                window.open = function(url) {
-                    const newWindow = window.open('about:blank', '_blank');
-                    newWindow.document.write(\`
-                        <!DOCTYPE html>
-                        <html lang="en">
-                        <head><title>New Window</title></head>
-                        <body style="margin:0;">
-                            <iframe src="\${url}" style="width:100%; height:100%; border:none;"></iframe>
-                        </body>
-                        </html>
-                    \`);
-                };
-            `;
-            iframeWindow.document.body.appendChild(script);
-        };
-  </script>
-  <script>
-     document.getElementById('openIframeContent').addEventListener('click', function() {
-            var iframe = document.getElementById('frameWeb');
-            var iframeContent = iframe.contentWindow ? iframe.contentWindow.document.documentElement.outerHTML : "";
-
-            var newWindow = window.open('about:blank', '_blank');
-            newWindow.document.open();
-            newWindow.document.write(iframeContent);
-            newWindow.document.close();
         });
   </script>
 </html>
