@@ -27,7 +27,7 @@ $(document).ready(function() {
     const faviconInput = document.getElementById("favicon");
 
     function applySettings(title, favicon) {
-        localStorage.setItem("Title", title || "Astro");
+        localStorage.setItem("Title", title || "Astro | V7");
         localStorage.setItem("Favicon", favicon || "/images/astro.png");
         location.reload();
     }

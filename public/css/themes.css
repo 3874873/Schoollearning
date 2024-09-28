@@ -17,10 +17,10 @@ body[theme="dark"] {
 }
 
 body[theme="light"] {
-    --text: #242424;
+    --text: lightgray;
     --bgcolor: rgb(122, 122, 122);
     --navbar:#7c7c7c7c;
-    --accent:lightgray;
+    --accent:#242424;
     --btn-accent:#888;
     --secondary-accent:#999;
 }
@@ -57,4 +57,12 @@ body[theme="3kh0"] {
     --accent:#c491f4;
     --btn-accent:#FF5733;
     --secondary-accent:#20B2AA;
+}
+body[theme="legacy"] {
+    --text: white;
+    background-image: url("https://github.com/GalacticNetwork/astro-v6/blob/main/public/images/bg.png?raw=true");
+    --navbar:#9500ff3a;
+    --accent:#c491f4;
+    --btn-accent:violet;
+    --secondary-accent:#d69cbc;
 }
